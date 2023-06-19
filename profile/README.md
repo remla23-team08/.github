@@ -2,26 +2,26 @@
 
 Welcome to the "[Release Engineering for Machine Learning Applications](https://se.ewi.tudelft.nl/remla/)" project of team 08! All of the content produced under this organization is part of the implementation for the aforementioned CS4295 course at Delft University of Technology.
 
-## **Table of Contents**
+## :books: **Table of Contents**
 
 - [REMLA - Team 08](#remla---team-08)
-  - [**Table of Contents**](#table-of-contents)
-  - [**Organization Repositories**](#organization-repositories)
-  - [**Versioning**](#versioning)
+  - [:books: **Table of Contents**](#books-table-of-contents)
+  - [:file\_folder **Organization Repositories**](#file_folder-organization-repositories)
+  - [:twisted\_rightwards\_arrows: **Versioning**](#twisted_rightwards_arrows-versioning)
     - [GitVersion](#gitversion)
-  - [**GitHub App(s)**](#github-apps)
+  - [:octocat: **GitHub App(s)**](#octocat-github-apps)
     - [General](#general)
     - [remla-team08-app](#remla-team08-app)
     - [Renovate](#renovate)
-  - [**Release Pipeline(s)**](#release-pipelines)
+  - [:rocket **Release Pipeline(s)**](#rocket-release-pipelines)
     - [General Layout](#general-layout)
     - [Publishing to GitHub Packages](#publishing-to-github-packages)
-  - [**Contributing**](#contributing)
+  - [:busts\_in\_silhouette: **Contributing**](#busts_in_silhouette-contributing)
     - [Commit Messages \& Branching](#commit-messages--branching)
     - [CODEOWNERS \& Pull Requests](#codeowners--pull-requests)
-  - [**Licensing**](#licensing)
+  - [:scroll: **Licensing**](#scroll-licensing)
 
-## **Organization Repositories**
+## :file_folder **Organization Repositories**
 
 Within this organization you will find our implementation for the following repositories:
 * [operation](https://github.com/remla23-team08/operation/tree/main) - Contains the needed Kubernetes & Docker configuration files and the published Helm charts
@@ -30,7 +30,7 @@ Within this organization you will find our implementation for the following repo
 * [app](https://github.com/remla23-team08/app/tree/main) - Contains a frontend web application that brings together all pieces
 * [lib](https://github.com/remla23-team08/lib/tree/main) - Contains a version-aware library that can be asked for its version
 
-## **Versioning**
+## :twisted_rightwards_arrows: **Versioning**
 
 All of the repositories within this organization are versioned using the [Semantic Versioning](https://semver.org/) (SemVer) format. Version bumps are done automatically when a PR is merged to the `main` branch. To achieve this, we are using the [GitVersion](https://gitversion.net/docs/) tool. For more information on how to use GitVersion, see [this link](https://gitversion.net/docs/).
 
@@ -44,7 +44,7 @@ All repositories are using the [GitVersion GitHub Action](https://github.com/mar
 
 > More specifically, the versioning is configured to use the *[Mainline Development]*(https://gitversion.net/docs/reference/modes/mainline) strategy, which means that the version number is determined based on the number of commits since the last release. Consult the [CODEOWNERS and Pull Requests](#codeowners--pull-requests) section for more information on how the versioning is done w.r.t. to adding new changes.
 
-## **GitHub App(s)**
+## :octocat: **GitHub App(s)**
 
 In short, [GitHub Apps](https://docs.github.com/en/apps) extend GitHub's already wide-range of products and corresponding functionalities by allowing developers to build custom applications and integrate them with GitHub's APIs.
 
@@ -68,7 +68,7 @@ We also installed and configured the [Renovate GitHub App](https://github.com/ap
 
 > **NOTE:** Each repository may have different validation steps in their respective CI/CD pipeline - depending on the package manager used and corresponding codebase.
 
-## **Release Pipeline(s)**
+## :rocket **Release Pipeline(s)**
 
 Within the organization's repositories, release pipelines are triggered automatically when a new PR is merged to the `main` branch. 
 
@@ -88,7 +88,7 @@ As part of the release pipelines, the organization produces the following packag
 2. Helm charts for the [operation](https://remla23-team08.github.io/operation/) repository (published via GitHub Pages and the helm-chart-releaser GitHub Action)
 3. NPM packages for the [lib](https://github.com/remla23-team08/lib/pkgs/npm/lib) repository
 
-## **Contributing**
+## :busts_in_silhouette: **Contributing**
 
 ### Commit Messages & Branching
 
@@ -113,6 +113,6 @@ Regarding such pull-requests, each batch of changes should ideally be explained 
 
 > When a PR is approved, the only option for merging that is available is the "Squash and Merge" option. This is done to ensure that the commit history is kept clean in order to avoid incorrect versioning when using `GitVersion`.
 
-## **Licensing**
+## :scroll: **Licensing**
 
 All of the repositories within this organization are licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License).
