@@ -4,7 +4,7 @@ Welcome to the "[Release Engineering for Machine Learning Applications](https://
 
 ## :books: **Table of Contents**
 
-- [REMLA - Team 08](#remla---team-08)
+- [REMLA 2023 - Team 08](#remla-2023---team-08)
   - [:books: **Table of Contents**](#books-table-of-contents)
   - [:file\_folder: **Organization Repositories**](#file_folder-organization-repositories)
   - [:twisted\_rightwards\_arrows: **Versioning**](#twisted_rightwards_arrows-versioning)
