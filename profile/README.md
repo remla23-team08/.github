@@ -1,4 +1,4 @@
-# REMLA - Team 08
+# REMLA 2023 - Team 08
 
 Welcome to the "[Release Engineering for Machine Learning Applications](https://se.ewi.tudelft.nl/remla/)" project of team 08! All of the content produced under this organization is part of the implementation for the aforementioned CS4295 course at Delft University of Technology.
 
