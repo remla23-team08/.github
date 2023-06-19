@@ -6,14 +6,14 @@ Welcome to the "[Release Engineering for Machine Learning Applications](https://
 
 - [REMLA - Team 08](#remla---team-08)
   - [:books: **Table of Contents**](#books-table-of-contents)
-  - [:file\_folder **Organization Repositories**](#file_folder-organization-repositories)
+  - [:file\_folder: **Organization Repositories**](#file_folder-organization-repositories)
   - [:twisted\_rightwards\_arrows: **Versioning**](#twisted_rightwards_arrows-versioning)
     - [GitVersion](#gitversion)
   - [:octocat: **GitHub App(s)**](#octocat-github-apps)
     - [General](#general)
     - [remla-team08-app](#remla-team08-app)
     - [Renovate](#renovate)
-  - [:rocket **Release Pipeline(s)**](#rocket-release-pipelines)
+  - [:rocket: **Release Pipeline(s)**](#rocket-release-pipelines)
     - [General Layout](#general-layout)
     - [Publishing to GitHub Packages](#publishing-to-github-packages)
   - [:busts\_in\_silhouette: **Contributing**](#busts_in_silhouette-contributing)
@@ -21,7 +21,7 @@ Welcome to the "[Release Engineering for Machine Learning Applications](https://
     - [CODEOWNERS \& Pull Requests](#codeowners--pull-requests)
   - [:scroll: **Licensing**](#scroll-licensing)
 
-## :file_folder **Organization Repositories**
+## :file_folder: **Organization Repositories**
 
 Within this organization you will find our implementation for the following repositories:
 * [operation](https://github.com/remla23-team08/operation/tree/main) - Contains the needed Kubernetes & Docker configuration files and the published Helm charts
@@ -68,7 +68,7 @@ We also installed and configured the [Renovate GitHub App](https://github.com/ap
 
 > **NOTE:** Each repository may have different validation steps in their respective CI/CD pipeline - depending on the package manager used and corresponding codebase.
 
-## :rocket **Release Pipeline(s)**
+## :rocket: **Release Pipeline(s)**
 
 Within the organization's repositories, release pipelines are triggered automatically when a new PR is merged to the `main` branch. 
 
