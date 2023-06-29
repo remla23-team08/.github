@@ -29,6 +29,7 @@ Within this organization you will find our implementation for the following repo
 * [model-service](https://github.com/remla23-team08/model-service/tree/main) - Contains the wrapper service for the ML model
 * [app](https://github.com/remla23-team08/app/tree/main) - Contains a frontend web application that brings together all pieces
 * [lib](https://github.com/remla23-team08/lib/tree/main) - Contains a version-aware library that can be asked for its version
+* [libpython](https://github.com/remla23-team08/libpython/tree/main) - Contains a Python-based project that does preprocessing used within model-training and model-service
 
 ## :twisted_rightwards_arrows: **Versioning**
 
